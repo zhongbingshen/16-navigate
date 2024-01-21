@@ -39,6 +39,7 @@ header {
     align-items: center;
     border-radius: 10px;
     background-color: #F9F0DA;
+    transition: all .3s;
 }
 
 #search-box:hover {
@@ -69,7 +70,6 @@ header {
     text-align: center;
     background: #00868B;
     cursor: pointer;
-    ;
 }
 
 #search-box button:active {
@@ -90,6 +90,7 @@ main {
     color: #00868B;
     font-size: 1.2em;
     font-weight: bold;
+    transition: all .3s;
 }
 
 #bookmark {
@@ -98,12 +99,14 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    transition: all .3s;
 }
 
 .item {
     flex: 0 0 calc(100% / 6);
     text-align: center;
     margin-bottom: 20px;
+    transition: all .3s;
 }
 
 @media (max-width: 1300px) {
